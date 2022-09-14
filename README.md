@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @BhavyUkani
 - 👀 I’m interested in Android Development 
 - 🌱 I’m currently learning Java Android 
-- 💞️ I’m looking to collaborate on @yashparmar0001
+- 💞️ I’m looking to collaborate on (@yashparmar0001)
 - 📫 How to reach me ...
 
 <!---
