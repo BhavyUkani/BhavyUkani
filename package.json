@@ -1,0 +1,12 @@
+{
+  "name": "coderbhavy.in",
+  "version": "1.0.0",
+  "description": "<!--\r <h2 align=\"center\">\r   Welcome to Al Siam World!\r   <img src=\"https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif\" width=\"28\">\r </h2>\r -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
