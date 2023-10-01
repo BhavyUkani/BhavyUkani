@@ -7,19 +7,54 @@
         "title": {
           "type": "text",
           "args": {
-            "text": "Dynamic Widget"
+            "text": "My Screen"
           }
         }
       }
     },
-    "body":{
-      "type": "center",
-      "child": {
-        "type": "text",
-        "args": {
-          "text": "This is a very important message!"
+    "body": {
+      "type": "column",
+      "children": [
+        {
+          "type": "text",
+          "args": {
+            "text": "Heading Text",
+            "style": {
+              "fontSize": 24,
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "args": {
+            "text": "Subtitle Text",
+            "style": {
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "args": {
+            "text": "Disabled Text",
+            "style": {
+              "fontSize": 18,
+              "color": "red",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "type": "image",
+          "args": {
+            "imagePath": "assets/my_image.png",
+            "width": 200,
+            "height": 200
+          }
         }
-      }
+      ]
     }
   }
 }
