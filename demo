@@ -1,26 +1,9 @@
 {
- "args": {
-   "appBar": {
-     "args": {
-       "title": {
-         "args": {
-           "text": "JSON UI Render - BOSC Tech labs"
-         },
-         "type": "text"
-       }
-     },
-     "type": "app_bar"
-   },
-   "body": {
-     "child": {
-       "type": "network_image",
-       "args": {
-         "fit": "cover",
-"src": "https://pbs.twimg.com/profile_images/988629820459270145/o7cqbtfN_400x400.jpg"
-       }
-     },
-     "type": "center"
-   }
- },
- "type": "scaffold"
+  "type": "center",
+  "child": {
+    "type": "text",
+    "args": {
+      "text": "This is a very important message!"
+    }
+  }
 }
