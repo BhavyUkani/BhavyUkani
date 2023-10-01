@@ -1,64 +1,26 @@
 {
-  "type": "scaffold",
-  "args": {
-    "appBar": {
-      "type": "app_bar",
-      "args": {
-        "title": {
-          "type": "text",
-          "args": {
-            "text": "My Screen"
-          }
-        }
-      }
-    },
-    "body": {
-      "args": {
-        "child": {
-          "type": "column",
-          "children": [
-            {
-              "type": "text",
-              "args": {
-                "text": "Heading Text",
-                "style": {
-                  "fontSize": 24,
-                  "fontWeight": "bold"
-                }
-              }
-            },
-            {
-              "type": "text",
-              "args": {
-                "text": "Subtitle Text",
-                "style": {
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                }
-              }
-            },
-            {
-              "type": "text",
-              "args": {
-                "text": "Disabled Text",
-                "style": {
-                  "fontSize": 18,
-                  "color": "red",
-                  "fontWeight": "bold"
-                }
-              }
-            },
-            {
-              "type": "image",
-              "args": {
-                "imagePath": "assets/my_image.png",
-                "width": 200,
-                "height": 200
-              }
-            }
-          ]
-        }
-      }
-    }
-  }
+ "args": {
+   "appBar": {
+     "args": {
+       "title": {
+         "args": {
+           "text": "JSON UI Render - BOSC Tech labs"
+         },
+         "type": "text"
+       }
+     },
+     "type": "app_bar"
+   },
+   "body": {
+     "child": {
+       "type": "network_image",
+       "args": {
+         "fit": "cover",
+"src": "https://pbs.twimg.com/profile_images/988629820459270145/o7cqbtfN_400x400.jpg"
+       }
+     },
+     "type": "center"
+   }
+ },
+ "type": "scaffold"
 }
